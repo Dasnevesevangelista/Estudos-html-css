@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+}
+h1 {
+    color: #fff;
+}
+a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none; 
+}
+
