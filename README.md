@@ -4,7 +4,7 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus 
  repositórios no git!
 
- <a href="../ex001/index.html">Exercicio 01</a>
+ <a href="../exercicios/ex001/index.html">Exercicio 01</a>
  <a href="../ex002/index.html">Exercicio 02</a>
  <a href="../ex003/index.html">Exercicio 03</a>
  <a href="../ex004/index.html">Exercicio 04</a>
