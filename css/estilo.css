@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte1: #B3321B;
+    --fonte2: #FA4423;
+    --fonte3: #B3321B;
+}
+header {
+    display: block;
+}
+
+header.cabecalho {
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, var(--fonte1), var(--fonte2));
+}
+nav {
+    background-color: var(--fonte3);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgb(0 0 0 / 19%);
+}
