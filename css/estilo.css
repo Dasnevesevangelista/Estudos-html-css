@@ -1,25 +1,77 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --fonte1: #B3321B;
-    --fonte2: #FA4423;
-    --fonte3: #B3321B;
+    --cor1: #64abed;
+    --cor2: #0d5181;
+    --cor3: #0e4f81;
+    --cor4: #a1ccf3;
+    --cor5: #ffffff;
+    --cor6: #cccbcb;
+    --fonte1: 'Playfair Display', serif;
+    --fonte2: 'Play', sans-serif;
 }
-header {
-    display: block;
+body{
+    background-color: var(--cor6);
 }
 
 header.cabecalho {
     min-height: 150px;
-    background-image: linear-gradient(to bottom, var(--fonte1), var(--fonte2));
+    text-align: center;
+    padding-top: 10px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+
 }
-nav {
-    background-color: var(--fonte3);
+
+header>h1 {
+    font-family: var(--fonte2);
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+
+}
+header>p{
+    font-family: var(--fonte2);
+    font-size: 1.4em;
+    color: white;
+    padding-top: 15px;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+}
+nav.menu{
+    background-color: var(--cor3);
     padding: 10px;
     box-shadow: 0px 7px 7px rgb(0 0 0 / 19%);
+}
+nav>a{
+    font-size: 20px;
+    color: var(--cor5);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    margin-right: 3px;
+}
+nav>a:hover{
+    background-color: var(--cor4);
+    color: var(--cor3);
+}
+main.principal{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
 }
