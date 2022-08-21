@@ -69,10 +69,14 @@ nav>a:hover{
     background-color: var(--cor4);
     color: var(--cor3);
 }
-.principal{
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 1.6vw;
+}
+.normal{
     background-color: white;
-    min-width: 300px;
-    max-width: 1000px;
-    padding: 20px;
-    margin: auto;
+    color: black;
 }
